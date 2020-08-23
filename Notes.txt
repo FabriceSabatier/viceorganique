@@ -1,0 +1,15 @@
+Ceci est la dernière version faites sur mon PC avant passage sur le mini Mac, elle intègre des petites modification css pour supprimer la sélection des textes invisibles (user-select : none;) et pour éviter le clic sur des liens extérieurs (pointer.events : none;) 
+> Pour la sélection : à faire sur le site !
+
+Pour le problème des labels d'agrégats :
+ça se situe dans membranes.js et ça concerne CONSTANTS.MEMBRANE.TEXTdx qui est défini dans constants.js
+Le problème c'est qu'avec les "types d'organisation", il y a un décalage vers la gauche, et avec les "secteurs d'activité", un décalage vers la droite
+Moindre mal : couper la poire en 2 et mettre :
+CONSTANTS.MEMBRANE.TEXTdx = -0.05*CONSTANTS.VUE.WIDTH; (à la place de -0.11)
+
+
+
+Pour le problème du changement de sujet :
+Il est question de la liste de theme dans fiches.js
+ça se passe, semble-t-il dans les fonctions anonymizeUser() et rebornUser() dans sections.js
+

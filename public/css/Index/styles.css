@@ -1,0 +1,434 @@
+@font-face {
+font-family: 'Open Sans';
+src: url('../font/OpenSans/OpenSans-Regular.eot?') format('eot'),
+     url('../font/OpenSans/OpenSans-Regular.otf') format('truetype'),
+     url('../font/OpenSans/OpenSans-Regular.woff') format('woff'),
+     url('../font/OpenSans/OpenSans-Regular.svg#OpenSansBold') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Open Sans Bold';
+src: url('../font/OpenSansBold/OpenSans-Bold.eot?') format('eot'),
+     url('../font/OpenSansBold/OpenSans-Bold.otf') format('truetype'),
+     url('../font/OpenSansBold/OpenSans-Bold.woff') format('woff'),
+     url('../font/OpenSansBold/OpenSans-Bold.svg#OpenSansBold') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Open Sans Italic';
+src: url('../font/OpenSansItalic/OpenSans-Italic.eot?') format('eot'),
+     url('../font/OpenSansItalic/OpenSans-Italic.otf') format('truetype'),
+     url('../font/OpenSansItalic/OpenSans-Italic.woff') format('woff'),
+     url('../font/OpenSansItalic/OpenSans-Italic.svg#OpenSansBold') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Antique Olive Standard Compact';
+src: url('../font/AntiqueOliveStdCompact/AntiqueOliveStd-Compact.eot?') format('eot'),
+     url('../font/AntiqueOliveStdCompact/AntiqueOliveStd-Compact.otf') format('truetype'),
+     url('../font/AntiqueOliveStdCompact/AntiqueOliveStd-Compact.woff') format('woff'),
+     url('../font/AntiqueOliveStdCompact/AntiqueOliveStd-Compact.svg#AntiqueOliveStandardCompactBold') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Antique Olive Roman';
+src: url('../font/AntiqueOliveRoman/antiqueolivestd_roman.eot?') format('eot'),
+     url('../font/AntiqueOliveRoman/AntiqueOliveStd-Roman.otf') format('truetype'),
+     url('../font/AntiqueOliveRoman/AntiqueOliveStd-Roman.woff') format('woff'),
+     url('../font/AntiqueOliveRoman/AntiqueOliveStd-Roman.svg#AntiqueOliveStandardCompactBold') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  background-color: #222c4f;
+  color: white;
+  user-select: none;
+}
+
+#container {
+  display: inline-block;
+}
+
+#left-container {
+  display: inline-block;
+  width: 20%;
+  padding: 15px;
+  margin: auto;
+}
+
+#sections {
+  z-index: 1;
+}
+
+/* La valeur qu'il faut pour scroller convenablement */
+section {
+  margin-bottom: 870px;
+}
+
+section > h1 {
+  font-family: 'Antique Olive Standard Compact', Arial, sans-serif;
+}
+
+section > p.texte {
+  font-family: 'Antique Olive Roman', Arial, sans-serif;
+}
+
+section > p.appel {
+  font-family: 'Antique Olive Roman', Arial, sans-serif;
+  font-style: italic;
+}
+
+#sec0 {
+  margin-top: 300px;
+}
+
+#fixpart {
+  position: fixed;
+  z-index: 1;
+  display: inline-block;
+  width: 79%;
+  margin: auto;
+  height: 100%;
+}
+
+#vue {
+  padding: 5px;
+  height: 100%;
+}
+
+#answers {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  z-index: 2;
+  background-color: #222c4f;
+  height: auto;
+  width: 20%;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: flex-end;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr {
+  display: none;
+  width: 100%;
+}
+
+th, td {
+  font-size: 1em; /*14px*/
+  color: rgb(186, 186, 186);
+  padding: 2px;
+}
+
+th {
+  border: solid rgb(0, 255, 165) 1px;
+  border-left: none;
+  width: 25%;
+}
+
+td {
+  border: solid rgb(0, 255, 165) 1px;
+  border-right: none;
+  width: 100%;
+  padding-left: 6px;
+  overflow: hidden;
+}
+
+#answers p {
+  padding: 3px;
+  margin: 0px;
+  font-size: 1em; /*14px*/
+  color: rgb(186, 186, 186);
+  white-space: nowrap;
+}
+
+#answers p.small {
+  margin-top: 15px;
+  width: 80px;
+  color: rgb(0,255,165);
+}
+
+#answers > p > a {
+  text-decoration: none;
+  color: rgb(0,255,165);
+}
+
+#answers p.small:hover {
+  color: white;
+}
+
+#answers p.recom {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-top: 10px;
+  margin-right: 30px;
+  width: 103px;
+  color: rgb(0,255,165);
+}
+
+#answers p.recom:hover {
+  color: white;
+}
+
+#answers a:hover {
+  color: white;
+}
+
+#answers > p > span {
+  box-sizing: content-box;
+  border: solid rgb(0, 255, 165) 1px;
+  padding-top: 0px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  height: 14px;
+  margin-bottom: -3px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+#answers > p.nom {
+  display: none;
+}
+
+#answers > p.country {
+  display: none;
+}
+
+#answers > p.secteur {
+  display: none;
+}
+
+#answers > p.type {
+  display: none;
+}
+
+#answers > p.position {
+  display: none;
+}
+
+#answers > p.theme {
+  display: none;
+}
+
+#answers > p.fonction {
+  display: none;
+}
+
+span.nom {
+  width: 240px;
+}
+
+span.country {
+  width: 247px;
+}
+
+span.secteur {
+  width: 214px;
+}
+
+span.type {
+  width: 197px;
+}
+
+span.position {
+  width: 275px;
+}
+
+span.theme {
+  width: 196px;
+}
+
+span.fonction {
+  width: 271px;
+}
+
+#credits {
+
+  display: none;
+  position: fixed;
+  background-color:white;/* rgba(255,255,255);*/
+  color: black;
+  border: solid black 8px;
+  width: 50%;
+  height: 70%;
+  top: 15%;
+  left: 25%;
+  overflow: scroll;
+  overflow-x: hidden;
+  z-index: 10;
+  /*padding: 40px;*/
+  padding-top: 10px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+
+#credits > #closecredits {
+  font-size: 1em; /*14px*/
+  position: fixed;
+  top: 12%;
+  right: 25%;
+  /*background-color: rgb(191,191,191);
+  border: solid black 2px;
+  border-radius: 10px;
+  padding: 5px;*/
+  color: rgb(0,255,165);
+  font-weight: bold;
+}
+
+#credits > #closecredits:hover {
+  color: white;
+  /*background-color: white;*/
+  cursor: pointer;
+}
+
+p#opencredits:hover {
+  cursor: pointer;
+}
+
+#credits > h1 {
+  font-family: 'Antique Olive Standard Compact', Arial, sans-serif;
+  font-size: 30px;
+  /*font-weight: bold;*/
+  margin-top: 40px;
+}
+
+#credits > p {
+  text-align: justify;
+  pointer-events: none;
+}
+
+#credits > p > em {
+  font-style: italic;
+}
+
+#credits > p > a {
+  color: inherit;
+}
+
+#credits > p > a:hover {
+  color: inherit;
+}
+
+#credits > p > a:visited {
+  color: inherit;
+}
+
+#credits > img {
+  display: block;
+  margin: auto;
+}
+
+/* https://www.hobo-web.co.uk/best-screen-size/ */
+/* Pour les petits écrans : mobiles */
+@media (max-width: 1050px){
+  section > p.texte {
+    font-size: 13px;
+  }
+
+  section > p.appel {
+    font-size: 13px;
+  }
+
+  section > h1 {
+    font-size: 20;
+  }
+}
+
+/* Pour les écrans moyens : tablettes */
+@media (min-width: 1051px) and (max-width: 1370px){
+  section > p.texte {
+    font-size: 13px;
+  }
+
+  section > p.appel {
+    font-size: 13px;
+  }
+
+  section > h1 {
+    font-size: 20;
+  }
+}
+
+/* Pour les grands écrans : ordinateurs */
+@media (min-width: 1371px)and (max-width: 1899px){
+  section > p.texte {
+  font-size: 1em; /*14px*/
+  }
+
+  section > p.appel {
+  font-size: 1em; /*14px*/
+  }
+
+  section > h1 {
+    font-size: 22px;
+  }
+}
+
+/* Pour les très grands écrans : ordinateurs */
+@media (min-width: 1900px){
+  section > p.texte {
+    font-size: 18px;
+  }
+
+  section > p.appel {
+    font-size: 18px;
+  }
+
+  section > h1 {
+    font-size: 30;
+  }
+}
+
+/*** MODIFICATION CSS BEL ORDINAIRE ***/
+
+svg g.node > text {
+    font-size: .65em;
+    font-weight: 500;
+    letter-spacing: .025em;
+}
+svg foreignObject.arctext > p {
+    font-size: .8em !important;
+    font-family: 'Open Sans bold'; 
+}
+th, td {
+    font-size: .85em;
+    letter-spacing: .025em;
+}
+
+@media (max-width: 1899px) and (min-width: 1371px) {
+  section > p.texte {
+      letter-spacing: .03em;
+      font-size: .85em;
+  }
+  section > p.appel {
+    font-size: .85em;
+  }
+  #credits > p {
+    font-size: .85em;
+  }
+}
