@@ -65,3 +65,6 @@ les applications
 Normelement le dispositif devrait se lancer automatiquement a chaque démarrage de l'ordinateur.
 [vous pouvez tester en double cliquant sur autoStart.bat]
 
+De plus pour un démarrage completement automatique au niveau de windows :
+https://www.passfab.fr/windows/automatically-log-in-to-windows.html#p2  
+[La solution 1 marche très bien]
