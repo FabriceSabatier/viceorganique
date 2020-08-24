@@ -3,7 +3,6 @@ https://github.com/randomDam/viceorganique
 
 Vi(c)e organique / BIP Liège
 Fiche technique
-Option 1 : avec 2 écrans
 Liste matériel
 - 1 PC avec bon processeur (Système d’exploitation 64 bits) avec possibilité de connecter les 2 écrans
 - 1 écran de bureau (environ 24 pouces)
