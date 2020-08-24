@@ -41,12 +41,12 @@ C:\Program Files\nodejs\
 https://download-chromium.appspot.com/  
 Deziper le fichier et le déplacer dans  
 C:\Program Files\
-de sorte a ce que :  
+de sorte que :  
 C:\Program Files\chrome-win\chrome.exe soit accessible.
 
 #### Chrome :
 https://www.google.com/intl/fr_fr/chrome/  
-de sorte a ce que :  
+de sorte que :  
 C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
 
 ### Démarrage automatique du dispositif :  
