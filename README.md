@@ -62,7 +62,7 @@ les applications
 - sur le fichier autostart.bat > boutton droit > copier
 - dans la fenetre précédemment ouverte > boutton droit > coller le raccourcis.
 
-Normelement le dispositif devrait se lancer automatiquement a chaque démarrage de l'ordinateur.
+Normalement le dispositif devrait se lancer automatiquement a chaque démarrage de l'ordinateur.
 [vous pouvez tester en double cliquant sur autoStart.bat]
 
 De plus pour un démarrage completement automatique au niveau de windows :
