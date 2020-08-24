@@ -41,12 +41,12 @@ C:\Program Files\nodejs\
 https://download-chromium.appspot.com/  
 Deziper le fichier et le déplacer dans  
 C:\Programmes\
-de sorte a ce que :  
+de sorte que :  
 C:\Programmes\chrome-win\chrome.exe soit accessible.
 
 #### Chrome :
 https://www.google.com/intl/fr_fr/chrome/  
-de sorte a ce que :  
+de sorte que :  
 C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
 
 ### Démarrage automatique du dispositif :  
@@ -62,7 +62,7 @@ les applications
 - sur le fichier autostart.bat > boutton droit > copier
 - dans la fenetre précédemment ouverte > boutton droit > coller le raccourcis.
 
-Normelement le dispositif devrait se lancer automatiquement a chaque démarrage de l'ordinateur.
+Normalement le dispositif devrait se lancer automatiquement a chaque démarrage de l'ordinateur.
 [vous pouvez tester en double cliquant sur autoStart.bat]
 
 De plus pour un démarrage completement automatique au niveau de windows :
