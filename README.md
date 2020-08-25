@@ -32,7 +32,7 @@ hauteur au PC)
 
 - Installer node.js (https://nodejs.org/en/)  
 __pour info : le dossier par default est :__  
-C:\Program Files\nodejs\
+C:\Programmes\nodejs\
 
 - Installer les navigateurs Chrome et Chromium (les fichiers d’installation seront joints)  :
 
