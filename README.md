@@ -30,7 +30,7 @@ hauteur au PC)
 ## Installations préalables (à faire qu’une seule fois, lors du montage)
 ### Logiciels prérequis
 
-- Installer node.js (le fichier d’installation sera joint)  
+- Installer node.js (https://nodejs.org/en/)  
 __pour info : le dossier par default est :__  
 C:\Program Files\nodejs\
 
