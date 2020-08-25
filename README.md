@@ -38,7 +38,7 @@ C:\Programmes\nodejs\
 
 #### Chromium :
 https://download-chromium.appspot.com/  
-Deziper le fichier et le déplacer dans  
+Dézipper le fichier et le déplacer dans  
 C:\Programmes\
 de sorte que :  
 C:\Programmes\chrome-win\chrome.exe soit accessible.
