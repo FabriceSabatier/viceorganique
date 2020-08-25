@@ -1,5 +1,5 @@
 # viceorganique  
-https://github.com/randomDam/viceorganique
+https://github.com/FabriceSabatier/viceorganique
 
 Vi(c)e organique / BIP Liège
 Fiche technique
