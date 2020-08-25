@@ -49,7 +49,7 @@ de sorte que :
 C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
 
 ### Démarrage automatique du dispositif :  
-- Télécharger completement se dossier.
+- Télécharger completement ce dossier.
 - Dézipper dans un dossier
 
 Le fichier autoStart.bat détermine la séquence d'éléments a 
